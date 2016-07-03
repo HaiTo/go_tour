@@ -18,7 +18,13 @@ func split(sum int) (x, y int) {
 	return
 }
 
+const Pi = 3.14
+
 func main() {
-	v := 3.14 + 1i
-	fmt.Printf("v is of type %T\n", v)
+	const World = "世界"
+	fmt.Println("hello", World)
+	fmt.Println("Happy", Pi, "Day")
+
+	const Truth = true
+	fmt.Println("Go rules?", Truth)
 }
