@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func add(x, y int) int {
@@ -20,9 +19,6 @@ func split(sum int) (x, y int) {
 }
 
 func main() {
-	var x, y int = 3, 4
-	var f float64 = math.Sqrt(x*x + y*y)
-	var z uint = f
-
-	fmt.Println(x, y, z)
+	v := 3.14 + 1i
+	fmt.Printf("v is of type %T\n", v)
 }
